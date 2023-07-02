@@ -1,7 +1,9 @@
-export let teacherdetails=()=>{
+import './table.css'
+export function Teacherdetails(){
     return(
         <>
-        <table>
+        <div >
+        <table cellPadding="10px" border='3' >
             <thead id='head'>
                 <tr>
                     <th>S.no</th>
@@ -37,6 +39,7 @@ export let teacherdetails=()=>{
                 </tr>
             </tbody>
         </table>
+        </div>
         </>
     )
 }
