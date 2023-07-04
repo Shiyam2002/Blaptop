@@ -20,7 +20,7 @@ export let Detail=()=>{
                     <input type='mail' placeholder='Email'/>    <br/>
                     <input type='number' placeholder='PhoneNo'/><br/>
                 </div>
-                    <input className='button' type='button' placeholder='Submit'/>
+                    <button className='button' >Submit</button>
                 
             </form>
            </div>

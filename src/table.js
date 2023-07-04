@@ -1,9 +1,11 @@
 import './table.css'
 export function Teacherdetails(){
+
+    const sam = {cellpadding : '40px'};
     return(
         <>
         <div >
-        <table cellPadding="10px" border='3' >
+        <table style={sam} border='3' align ='center'>
             <thead id='head'>
                 <tr>
                     <th>S.no</th>
@@ -12,7 +14,7 @@ export function Teacherdetails(){
                     <th>Teacher ID</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody id='body'>
                 <tr>
                     <td>1.</td>
                     <td>Shubha</td>
