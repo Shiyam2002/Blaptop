@@ -5,7 +5,7 @@ export function Teacherdetails(){
     return(
         <>
         <div >
-        <table style={sam} border='3' align ='center'>
+        <table style={sam} border='3' align ='center' cellpadding='2'>
             <thead id='head'>
                 <tr>
                     <th>S.no</th>

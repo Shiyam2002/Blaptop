@@ -1,5 +1,12 @@
 .Bio_Data{
-   filter: blur(3px);
+    filter: blur(3px);
+   margin-top: 250px;
+   margin-left: auto;
+   margin-right: auto;
+   align-items: center;
+   justify-content: center;
+   
+
 }
 
 label{
@@ -7,6 +14,7 @@ label{
 }
 
 .inputs{
+    
     margin: 10px 0;
     border: none;
     padding: 10px;
@@ -28,9 +36,8 @@ label{
     border-top-right-radius:28px;
     border-bottom-left-radius:28px;
     border-bottom-right-radius:28px;
-    text-shadow: 1px 1px 0px #41b7fc;
     background:#0221cf;
-    align-self: start;
+    align-self: center;
     align-items: center;
     text-decoration: dashed;
 }

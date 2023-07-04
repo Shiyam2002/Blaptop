@@ -5,8 +5,8 @@ import { Teacherdetails } from './table';
 function App(){
     return(
         <>
-          {<Teacherdetails/>}
-          {/*<Detail/>*/}
+        { /*<Teacherdetails/>*/}
+          {<Detail/>}
         </>
     )
 }
