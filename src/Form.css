@@ -1,13 +1,14 @@
 #Bio-Data{
-    backdrop-filter: blur(20px);
-   margin-left: 500px;
-   margin-right: 500px;
-   margin-top: 250px;
-   margin-bottom: auto;
-   padding-left: 20px;
+    
+   background-color: rgba(0, 0, 0, 0.6);
    align-items: center;
    justify-content: center;
-
+   border-radius: 30px; 
+   text-align: center; 
+   padding: 40px;
+   width: 400px;
+  height: 300px;
+  margin-left: 400px;
    
 }
 
@@ -35,7 +36,7 @@
     align-self: center;
     align-items: center;
     text-decoration: dashed;
-    margin-left: 40px;
+    
 }
 
 .button:hover{
