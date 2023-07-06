@@ -1,27 +1,22 @@
-.Bio_Data{
-    filter: blur(3px);
+#Bio-Data{
+    backdrop-filter: blur(20px);
+   margin-left: 500px;
+   margin-right: 500px;
    margin-top: 250px;
-   margin-left: auto;
-   margin-right: auto;
+   margin-bottom: auto;
+   padding-left: 20px;
    align-items: center;
    justify-content: center;
+
    
-
 }
 
-label{
-    color: white;
-}
 
-.inputs{
+
+#inputs{
     
-    margin: 10px 0;
-    border: none;
+    margin: 20px;
     padding: 10px;
-    border-radius: 5px;
-    width: 90%;
-    font-size: 16px;
-    font-family: 'poppins';
 }
 
 .button{
@@ -40,6 +35,7 @@ label{
     align-self: center;
     align-items: center;
     text-decoration: dashed;
+    margin-left: 40px;
 }
 
 .button:hover{
