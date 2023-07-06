@@ -3,10 +3,10 @@ import './Form.css'
 export let Detail=()=>{
     return(
         <>
-        <div >
-            <form className='Bio-Data'>
+        <div id='Bio-Data'>
+            <form >
                 <br/>
-                <div className='inputs' >
+                <div id='inputs' >
                     <input type='text' placeholder='Name' />    <br></br>
                     <input type='number' placeholder='Age'/>    <br></br>
                     <input type='mail' placeholder='Email'/>    <br/>
